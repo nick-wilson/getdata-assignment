@@ -4,13 +4,13 @@
 
 Data has been collected from the accelerometers from the Samsung Galaxy Smartphone and used to track fitness activities of various subjects.
 
-This code book describes the variables produced from that data after processing by the run_analysis.R script.
+This code book describes the variables produced from that data after processing by the `run_analysis.R` script from this repository.
 
 The website describing the experiment is available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The original data is available from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Please note that the formatting of this file has been designed to be viewed on the Github site. Other implementations of Markdown may not format the table correctly.
+*Please note that the formatting of this file has been designed to be viewed on the Github site. Other implementations of Markdown may not format the table correctly.*
 
 ## Modifications to the original data
 
