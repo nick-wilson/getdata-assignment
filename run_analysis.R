@@ -88,8 +88,21 @@ measurement_names<-c(
 ## Descriptive labels for the data set
 col_names<-c("Subject","Activity",measurement_names) 
 
-# unzipped data is in the following directory
+# unzipped data should be in the following directory
 datadir<-"UCI HAR Dataset"
+# check if the data is there
+if (!file.exists(file.path(datadir,"train","X_train.txt"))) {
+    # can't find file there, are we already in the directory?
+    datadir<-"."
+    if (!file.exists(file.path(datadir,"train","X_train.txt"))) {
+        # not here either so let's try and unzip it
+        unzip("UCI HAR Dataset.zip")
+        datadir<-"UCI HAR Dataset"
+    }
+}
+
+    
+# if that directory isn't present then try this directory
 
 ## Get training data (Step 2)
 ### read data from file

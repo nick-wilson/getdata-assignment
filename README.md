@@ -19,12 +19,8 @@ unzipped data set. If that is true then the following commands show how the scri
 git clone https://github.com/nick-wilson/getdata-assignment.git && \
 Rscript getdata-assignment/run_analysis.R
 ~~~~
-If the data set has not been unzipped then this will need to be done before the script is run:
-~~~~
-unzip "UCI HAR Dataset.zip" && \
-git clone https://github.com/nick-wilson/getdata-assignment.git && \
-Rscript getdata-assignment/run_analysis.R
-~~~~
+If that directory is not present then the script will check for `train/X_train.txt` in the current working directory.
+If it cannot find that file then it will try to unzip the zip file.
 
 ## Functionality
 The script performs the following actions:
