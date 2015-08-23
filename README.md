@@ -1,19 +1,19 @@
 # Getting and Cleaning Data Course Project
-This R script cleans the data set extracted from the "UCI HAR Dataset.zip" file which consists of fitness data collected
+This R script cleans the data set extracted from the `UCI HAR Dataset.zip` file which consists of fitness data collected
 from the accelerometers of Galaxy S smartphones.
 
 The following two files will be produced by the script:
 
-File              | Description
-------------------|------------------------------------------------------------------------------------------
-coursera-step4.txt| Cleaned data set with the values for the mean and standard deviation for each measurement
-coursera-step5.txt| Data set with the average of each variable for each activity and each subject
+File                | Description
+--------------------|------------------------------------------------------------------------------------------
+`coursera-step4.txt`| Cleaned data set with the values for the mean and standard deviation for each measurement
+`coursera-step5.txt`| Data set with the average of each variable for each activity and each subject
 
 Please refer to the code book for more information about the variables.
 
 ## Usage instructions
 
-The script assumes that the directory "UCI HAR Dataset" is present in the current working directory containing the
+The script assumes that the directory `UCI HAR Dataset` is present in the current working directory containing the
 unzipped data set. If that is true then the following commands show how the script can be run on OS/X or Linux.
 ~~~~
 git clone https://github.com/nick-wilson/getdata-assignment.git && \
