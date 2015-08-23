@@ -2,11 +2,12 @@
 This R script cleans the data set extracted from the "UCI HAR Dataset.zip" file which consists of fitness data collected
 from the accelerometers of Galaxy S smartphones.
 
-It will produce two files
-|File|Description|
-|:-|:-|
-|coursera-step4.txt|Cleaned data set with the values for the mean and standard deviation for each measurement|
-|coursera-step5.txt|Data set with the average of each variable for each activity and each subject|
+The following two files will be produced by the script:
+
+File              | Description
+------------------|------------------------------------------------------------------------------------------
+coursera-step4.txt| Cleaned data set with the values for the mean and standard deviation for each measurement
+coursera-step5.txt| Data set with the average of each variable for each activity and each subject
 
 Please refer to the code book for more information about the variables.
 
@@ -25,7 +26,7 @@ git clone https://github.com/nick-wilson/getdata-assignment.git && \
 Rscript getdata-assignment/run_analysis.R
 ~~~~
 
-## Description
+## Functionality
 The script performs the following actions:
 * Extracts the entries for the mean and standard deviation for each measurement.
 * Merges training data and test data together.
