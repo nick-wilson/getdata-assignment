@@ -24,8 +24,8 @@ The data table generatedaby the R script from the data set contains the followin
 
 Variable | Type | Description
 :------- | :--- | :-------
-Subject | int | Identifier for each subject
-Activity | chr | The activities which were measured. Valid values: `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`
+`Subject` | `int` | Identifier for each subject
+`Activity` | `chr` | The activities which were measured. Valid values: `WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`
 `tBodyAcc-mean-X` | `num` | Mean of time domain signal for BodyAcc in X direction
 `tBodyAcc-mean-Y` | `num` | Mean of time domain signal for BodyAcc in Y direction
 `tBodyAcc-mean-Z` | `num` | Mean of time domain signal for BodyAcc in Z direction
